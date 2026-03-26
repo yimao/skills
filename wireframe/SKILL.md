@@ -1,7 +1,8 @@
 ---
 name: wireframe
 description: Create UI wireframes and mockups using drawio XML format with platform-specific UI component libraries. Best for web page layouts, iOS/Android mobile app mockups, and Bootstrap-based designs. Built on drawio with mockup-specific stencils. NOT for simple flowcharts (use mermaid) or data visualization (use vega).
-author: Wireframe diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+metadata:
+  author: Wireframe diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---
 
 # UI Wireframe & Mockup Generator

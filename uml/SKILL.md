@@ -1,7 +1,8 @@
 ---
 name: uml
 description: Create UML (Unified Modeling Language) diagrams using drawio XML format. Best for software modeling including Class, Sequence, Activity, State Machine, Component, Use Case, and Deployment diagrams. Built on drawio with UML-specific shapes and notation. NOT for simple flowcharts (use mermaid), layered system architecture (use architecture), or data charts (use vega).
-author: UML diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+metadata:
+  author: UML diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---
 
 # UML Diagram Generator

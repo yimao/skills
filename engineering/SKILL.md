@@ -1,7 +1,8 @@
 ---
 name: engineering
 description: Create professional engineering diagrams using drawio XML format with industry-standard symbols. Best for electrical schematics, P&ID (Piping & Instrumentation), rack diagrams, fault tree analysis, PLC ladder logic, and logic gate diagrams. Built on drawio with engineering-specific stencils. NOT for simple flowcharts (use mermaid) or network topology (use network skill).
-author: Engineering diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+metadata:
+  author: Engineering diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---
 
 # Engineering Diagram Generator

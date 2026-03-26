@@ -1,7 +1,8 @@
 ---
 name: network
 description: Create network topology diagrams using drawio XML format with industry-standard device icons. Best for LAN/WAN diagrams, enterprise networks, cloud infrastructure, and vendor-specific diagrams (Cisco, Arista, Fortinet). Built on drawio with specialized network stencils. NOT for abstract dependency graphs (use graphviz) or simple flowcharts (use mermaid).
-author: Network diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+metadata:
+  author: Network diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---
 
 # Network Topology Diagram Generator

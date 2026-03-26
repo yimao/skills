@@ -1,7 +1,8 @@
 ---
 name: cloud
 description: Create cloud architecture diagrams using drawio XML format with official cloud provider icons. Best for AWS, Azure, GCP, Alibaba Cloud architecture diagrams with proper service icons and layout conventions. Built on drawio with cloud-specific stencils. NOT for simple flowcharts (use mermaid) or network topology without cloud services (use network skill).
-author: Cloud diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+metadata:
+  author: Cloud diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---
 
 # Cloud Architecture Diagram Generator

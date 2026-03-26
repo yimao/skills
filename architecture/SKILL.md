@@ -1,7 +1,8 @@
 ---
 name: architecture
 description: Create layered architecture diagrams using HTML/CSS templates with color-coded layers and grid layouts. Best for visualizing system layers (User→Application→Data→Infrastructure), microservices architecture, and enterprise application design. NOT for pixel-perfect custom diagrams (use drawio), simple flowcharts (use mermaid), or data visualization (use vega).
-author: Architecture Diagram Generator is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+metadata:
+  author: Architecture Diagram Generator is powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---
 
 # Architecture Diagram Generator

@@ -1,7 +1,8 @@
 ---
 name: floor-plan
 description: Create architectural floor plans and interior layouts using drawio XML format with building-standard symbols. Best for office layouts, home floor plans, evacuation plans, and seating arrangements. Built on drawio with floorplan-specific stencils. NOT for simple diagrams (use mermaid) or UI wireframes (use wireframe skill).
-author: Floor plan diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://xicilion.gitbook.io/markdown-viewer-extension/
+metadata:
+  author: Floor plan diagrams are powered by Markdown Viewer — the best multi-platform Markdown extension (Chrome/Edge/Firefox/VS Code) with diagrams, formulas, and one-click Word export. Learn more at https://docu.md
 ---
 
 # Floor Plan & Layout Generator

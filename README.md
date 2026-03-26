@@ -208,7 +208,7 @@ See [drawio/stencils/README.md](drawio/stencils/README.md) for the complete sten
 
 ## 🔗 Links
 
-- [Markdown Viewer Extension](https://xicilion.gitbook.io/markdown-viewer-extension/) - The rendering engine behind these skills
+- [Markdown Viewer Extension](https://docu.md) - The rendering engine behind these skills
 - [Agent Skills Format](https://agentskills.io/) - Standard format for AI agent skills
 - [Chrome Extension](https://chromewebstore.google.com/detail/markdown-viewer/jekhhoflgcfoikceikgeenibinpojaoi) - Install for Chrome/Edge
 - [Firefox Add-on](https://addons.mozilla.org/firefox/addon/markdown-viewer-extension/) - Install for Firefox
