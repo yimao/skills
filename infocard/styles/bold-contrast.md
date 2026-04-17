@@ -28,14 +28,17 @@
     .card-bar { width: 80px; height: 4px; margin: 0 0 20px; background: #f59e0b; }
     .card-body { margin: 0 0 16px; font-size: 15px; line-height: 1.6; color: #e2e8f0; }
     .card-grid { display: grid; gap: 14px; }.card-grid-2 { grid-template-columns: 1fr 1fr; }.card-grid-3 { grid-template-columns: repeat(3, 1fr); }
-    .card-panel { padding: 16px 18px; background: rgba(248,250,252,0.05); border-top: 4px solid #f59e0b; }
+    .card-panel { padding: 16px 18px; background: rgba(248,250,252,0.05); }
+    .card-accent-panel-top { border-top: 4px solid #f59e0b; }
     .card-panel-title { margin: 0 0 8px; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #f59e0b; }
     .card-panel-text { margin: 0; font-size: 14px; line-height: 1.55; color: #cbd5e1; }
     .card-tag { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 8px; background: #f59e0b; color: #0f172a; margin-right: 6px; margin-bottom: 4px; letter-spacing: 0.05em; }
     .card-stat { font-size: 56px; font-weight: 700; line-height: 1; color: #f59e0b; margin: 0; }
+    .card-accent-stat { color: #f59e0b; }
     .card-stat-label { font-size: 12px; font-weight: 600; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.1em; margin: 4px 0 0; }
     .card-body.dropcap::first-letter { font: 700 64px/0.82 'Inter', sans-serif; float: left; margin: 4px 12px 0 -2px; color: #f59e0b; }
-    .card-highlight { font-size: 16px; font-weight: 500; line-height: 1.5; color: #f8fafc; padding: 10px 0 10px 16px; border-left: 3px solid #f59e0b; margin: 16px 0; }
+    .card-highlight { font-size: 16px; font-weight: 500; line-height: 1.5; color: #f8fafc; padding: 10px 0 10px 16px; margin: 16px 0; }
+    .card-accent-highlight-left { border-left: 3px solid #f59e0b; }
     .card-item { margin-bottom: 14px; }.card-item:last-child { margin-bottom: 0; }
     .card-item-label { margin: 0 0 4px; font-size: 15px; font-weight: 600; color: #f8fafc; }
     .card-divider { height: 1px; background: rgba(248,250,252,0.1); margin: 20px 0; }
@@ -48,24 +51,24 @@
     <div class="card-bar"></div>
     <div class="card-grid card-grid-3">
       <div style="text-align: center; padding: 12px 0;">
-        <p class="card-stat">99.9%</p>
+        <p class="card-stat card-accent-stat">99.9%</p>
         <p class="card-stat-label">Uptime</p>
       </div>
       <div style="text-align: center; padding: 12px 0;">
-        <p class="card-stat">2.4M</p>
+        <p class="card-stat card-accent-stat">2.4M</p>
         <p class="card-stat-label">Active Users</p>
       </div>
       <div style="text-align: center; padding: 12px 0;">
-        <p class="card-stat">&lt;50ms</p>
+        <p class="card-stat card-accent-stat">&lt;50ms</p>
         <p class="card-stat-label">Avg Latency</p>
       </div>
     </div>
     <div class="card-grid card-grid-2" style="margin-top: 16px;">
-      <div class="card-panel">
+      <div class="card-panel card-accent-panel-top">
         <p class="card-panel-title">Growth</p>
         <p class="card-panel-text">Year-over-year user growth of 180%, driven by platform expansion across three new regions and API partner integrations.</p>
       </div>
-      <div class="card-panel">
+      <div class="card-panel card-accent-panel-top">
         <p class="card-panel-title">Reliability</p>
         <p class="card-panel-text">Zero unplanned outages in Q4. Infrastructure migrated to multi-region active-active architecture with automated failover.</p>
       </div>

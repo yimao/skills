@@ -23,7 +23,8 @@
   <style scoped>
     .card-frame { max-width: 800px; }
     .card { position: relative; background: #0a1628; padding: 40px; overflow: hidden; font-family: 'Inter', 'Noto Sans SC', sans-serif; color: #c8d8ea; line-height: 1.6; }
-    .card::before { content: ''; position: absolute; inset: 0; pointer-events: none; opacity: 0.08; background-image: linear-gradient(rgba(0,212,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(0,212,255,0.5) 1px, transparent 1px); background-size: 24px 24px; }
+    .card-surface-grid::before { content: ''; position: absolute; inset: 0; pointer-events: none; opacity: 0.08; background-image: linear-gradient(rgba(0,212,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(0,212,255,0.5) 1px, transparent 1px); background-size: 24px 24px; }
+    .card-text-mono { font-family: 'SF Mono', 'Fira Code', monospace; }
     .card-meta { margin: 0 0 12px; font-size: 12px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: #5a7a96; font-family: 'SF Mono', 'Fira Code', monospace; }
     .card-title { margin: 0 0 16px; font-size: 34px; font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; color: #00d4ff; }
     .card-subtitle { margin: 0 0 16px; font-size: 17px; line-height: 1.55; color: #8ab0cc; }
@@ -44,23 +45,23 @@
     .card-endmark { display: block; text-align: right; font-size: 14px; color: #00d4ff; opacity: 0.3; margin-top: 20px; }
     .card-footer { margin-top: 20px; padding-top: 12px; border-top: 1px solid rgba(0,212,255,0.15); font-size: 11px; color: #5a7a96; letter-spacing: 0.05em; font-family: 'SF Mono', 'Fira Code', monospace; }
   </style>
-  <div class="card">
-    <p class="card-meta">SPEC // Infrastructure</p>
+  <div class="card card-surface-grid">
+    <p class="card-meta card-text-mono">SPEC // Infrastructure</p>
     <h1 class="card-title">Event Stream Processing<br>Pipeline Specification</h1>
     <div class="card-bar"></div>
     <p class="card-body dropcap">The event bus serves as the central nervous system of the platform, ingesting structured events from 14 upstream producers, applying schema validation and enrichment transforms, then routing to downstream consumers via topic-based subscriptions with exactly-once delivery guarantees.</p>
     <p class="card-highlight">Peak throughput: 240K events/sec, P99 latency &lt; 12ms</p>
     <div class="card-grid card-grid-2">
       <div class="card-panel">
-        <p class="card-panel-title">CORE STACK</p>
+        <p class="card-panel-title card-text-mono">CORE STACK</p>
         <p class="card-panel-text">Apache Kafka 3.7 · Schema Registry (Avro) · Kafka Streams DSL · Dead Letter Queue · mTLS inter-broker · RBAC per-topic ACLs</p>
       </div>
       <div class="card-panel">
-        <p class="card-panel-title">OBSERVABILITY</p>
+        <p class="card-panel-title card-text-mono">OBSERVABILITY</p>
         <p class="card-panel-text">Consumer lag monitors · Partition skew alerts · End-to-end trace IDs · Retention policy: 72h hot, 30d tiered (S3) · Quarterly capacity review</p>
       </div>
     </div>
     <span class="card-endmark">⬡</span>
-    <div class="card-footer">REV 3.1 // Event Bus Architecture // Platform Team 2026</div>
+    <div class="card-footer card-text-mono">REV 3.1 // Event Bus Architecture // Platform Team 2026</div>
   </div>
 </div>

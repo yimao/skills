@@ -104,41 +104,196 @@ Before finalizing any card, check against these common AI-generated visual patte
 
 ## Style Examples
 
-Choose a visual style that matches the content's tone. Each example contains a complete, copy-ready HTML template.
+Choose a visual family first, then pick the specific template inside that family. This keeps the library broad without forcing a flat 29-style scan every time.
 
-| # | Style | File | Suitable For |
-|---|---|---|---|
-| 1 | **Editorial Warm** | [styles/editorial-warm.md](styles/editorial-warm.md) | Knowledge summaries, book notes, essays, analytical reports |
-| 2 | **Clean Modern** | [styles/clean-modern.md](styles/clean-modern.md) | Product launches, tech announcements, startup pitches |
-| 3 | **Bold Contrast** | [styles/bold-contrast.md](styles/bold-contrast.md) | Data highlights, KPI dashboards, event announcements |
-| 4 | **Soft Neutral** | [styles/soft-neutral.md](styles/soft-neutral.md) | Lifestyle content, wellness, education, gentle branding |
-| 5 | **Slate Chalk** | [styles/slate-chalk.md](styles/slate-chalk.md) | Teaching content, lessons, concept explanations, workshop notes |
-| 6 | **Paper Minimal** | [styles/paper-minimal.md](styles/paper-minimal.md) | Product notes, task summaries, meeting notes, clean documentation |
-| 7 | **Retro Vintage** | [styles/retro-vintage.md](styles/retro-vintage.md) | Brand stories, historical summaries, cultural content, heritage topics |
-| 8 | **Tech Blueprint** | [styles/tech-blueprint.md](styles/tech-blueprint.md) | Technical specs, system design docs, architecture summaries, engineering plans |
-| 9 | **Deep Night** | [styles/deep-night.md](styles/deep-night.md) | Entertainment, creative showcases, product reveals, gaming content |
-| 10 | **Wash Pastel** | [styles/wash-pastel.md](styles/wash-pastel.md) | Lifestyle content, creative workshops, wellness topics, artistic portfolios |
-| 11 | **Lab Journal** | [styles/lab-journal.md](styles/lab-journal.md) | Research summaries, scientific explanations, medical content, academic papers |
-| 12 | **Navy Formal** | [styles/navy-formal.md](styles/navy-formal.md) | Investor decks, executive briefs, quarterly reports, corporate proposals |
+### Style Families
+
+#### Warm Editorial and Storytelling
+
+Use when the card should feel reflective, human, narrative, or culturally textured.
+
+| Style | File | Suitable For |
+|---|---|---|
+| **Editorial Warm** | [styles/editorial-warm.md](styles/editorial-warm.md) | Knowledge summaries, book notes, essays, analytical reports |
+| **Customer Spotlight** | [styles/customer-spotlight.md](styles/customer-spotlight.md) | Customer stories, case studies, success recaps, brand narratives, adoption stories |
+| **Sunset Warm** | [styles/sunset-warm.md](styles/sunset-warm.md) | Community recaps, event notes, lifestyle summaries, positive storytelling |
+| **Midcentury** | [styles/midcentury.md](styles/midcentury.md) | Brand stories, retro-modern campaigns, culture notes, design narratives |
+
+#### Soft Lifestyle and Teaching
+
+Use when the card should feel calm, approachable, and low-pressure.
+
+| Style | File | Suitable For |
+|---|---|---|
+| **Soft Neutral** | [styles/soft-neutral.md](styles/soft-neutral.md) | Lifestyle content, wellness, education, gentle branding, creative workshops |
+| **Slate Chalk** | [styles/slate-chalk.md](styles/slate-chalk.md) | Teaching content, lessons, concept explanations, workshop notes |
+| **Education Studio** | [styles/education-studio.md](styles/education-studio.md) | Teaching notes, course modules, learning summaries, workshop guides |
+
+#### Paper, Research, and Governance
+
+Use when the card should read like a memo, report, brief, or evidence summary.
+
+| Style | File | Suitable For |
+|---|---|---|
+| **Paper Minimal** | [styles/paper-minimal.md](styles/paper-minimal.md) | Product notes, task summaries, meeting notes, clean documentation |
+| **Lab Journal** | [styles/lab-journal.md](styles/lab-journal.md) | Research summaries, scientific explanations, medical content, academic papers |
+| **Academic Paper** | [styles/academic-paper.md](styles/academic-paper.md) | Research abstracts, paper summaries, literature reviews, evidence-heavy explanations |
+| **Policy Paper** | [styles/policy-paper.md](styles/policy-paper.md) | Governance notes, policy explainers, legal-adjacent summaries, internal rules |
+| **Navy Formal** | [styles/navy-formal.md](styles/navy-formal.md) | Investor decks, executive briefs, quarterly reports, corporate proposals |
+| **Japanese Minimal** | [styles/japanese-minimal.md](styles/japanese-minimal.md) | Brand narratives, cultural notes, quiet product essays, reflective announcements |
+| **Clinical Brief** | [styles/clinical-brief.md](styles/clinical-brief.md) | Healthcare summaries, medical notes, patient education, clinical snapshots |
+
+#### Business, Finance, and Trust
+
+Use when the card should look operational, executive, or commercially credible.
+
+| Style | File | Suitable For |
+|---|---|---|
+| **Corporate Clean** | [styles/corporate-clean.md](styles/corporate-clean.md) | Product launches, B2B briefs, executive summaries, formal reports, investor-facing materials |
+| **Pitch Deck VC** | [styles/pitch-deck-vc.md](styles/pitch-deck-vc.md) | Fundraising cards, market opportunity snapshots, startup traction summaries |
+| **Sales Room** | [styles/sales-room.md](styles/sales-room.md) | Pipeline reviews, account snapshots, deal strategy notes, revenue briefings |
+| **Trust Center** | [styles/trust-center.md](styles/trust-center.md) | Security notes, compliance summaries, audit updates, trust-facing reports |
+| **Partner Channel** | [styles/partner-channel.md](styles/partner-channel.md) | Partner briefs, alliance updates, channel motions, co-sell summaries |
+
+#### Technical and Operational
+
+Use when precision, systems language, or implementation detail needs to dominate.
+
+| Style | File | Suitable For |
+|---|---|---|
+| **Tech Blueprint** | [styles/tech-blueprint.md](styles/tech-blueprint.md) | Technical specs, system design docs, architecture summaries, engineering plans |
+| **Engineering Whiteprint** | [styles/engineering-whiteprint.md](styles/engineering-whiteprint.md) | Architecture notes, API briefs, implementation plans, technical whitepapers |
+| **Terminal Green** | [styles/terminal-green.md](styles/terminal-green.md) | Infra status cards, CLI guides, incident notes, retro-computing topics |
+
+#### Broadcast, Statement, and High-Contrast
+
+Use when the card should announce, signal urgency, or land a strong visual punch.
+
+| Style | File | Suitable For |
+|---|---|---|
+| **Bold Contrast** | [styles/bold-contrast.md](styles/bold-contrast.md) | Data highlights, KPI dashboards, event announcements |
+| **News Broadcast** | [styles/news-broadcast.md](styles/news-broadcast.md) | Flash updates, report callouts, media briefings, public announcements |
+| **Incident Desk** | [styles/incident-desk.md](styles/incident-desk.md) | Incident reviews, outage notes, postmortems, reliability updates |
+| **Neo Brutalism** | [styles/neo-brutalism.md](styles/neo-brutalism.md) | Bold campaign cards, manifesto-style summaries, startup launches, punchy statements |
+| **Swiss Grid** | [styles/swiss-grid.md](styles/swiss-grid.md) | Structured editorial layouts, design-forward reports, typographic statements |
+
+#### Signature Visual Identities
+
+Use when the visual identity itself is part of the message.
+
+| Style | File | Suitable For |
+|---|---|---|
+| **Deep Night** | [styles/deep-night.md](styles/deep-night.md) | Entertainment, creative showcases, product reveals, gaming content |
+| **Glassmorphism** | [styles/glassmorphism.md](styles/glassmorphism.md) | Premium product reveals, feature spotlights, event invites, future-facing showcases |
 
 ## Layout Skeletons
 
-Choose a layout that fits your content structure. Layouts are style-agnostic wireframes.
+Choose the content structure family first, then select the specific wireframe. Layouts remain style-agnostic.
 
-| # | Layout | File | Best For |
-|---|---|---|---|
-| 1 | **Hero Card** | [layouts/hero-card.md](layouts/hero-card.md) | Single topic with title + summary + one supporting panel |
-| 2 | **Split Panel** | [layouts/split-panel.md](layouts/split-panel.md) | Two-column layouts: main content + sidebar or left-right comparison |
-| 3 | **Stacked Modules** | [layouts/stacked-modules.md](layouts/stacked-modules.md) | Multi-section vertical flow with mixed-weight blocks |
-| 4 | **Data Highlight** | [layouts/data-highlight.md](layouts/data-highlight.md) | Numbers-first cards with oversized metrics and supporting context |
-| 5 | **Versus Split** | [layouts/versus-split.md](layouts/versus-split.md) | A vs B side-by-side comparison with central divider |
-| 6 | **Timeline Flow** | [layouts/timeline-flow.md](layouts/timeline-flow.md) | Sequential steps, milestones, process stages with vertical timeline |
-| 7 | **Bento Grid** | [layouts/bento-grid.md](layouts/bento-grid.md) | Multi-topic overviews, feature showcases, mixed-size grid cells |
-| 8 | **Quote Card** | [layouts/quote-card.md](layouts/quote-card.md) | Pull-quotes, mission statements, keynote quotes with attribution |
-| 9 | **Radial Hub** | [layouts/radial-hub.md](layouts/radial-hub.md) | Ecosystem overviews, core-plus-features, hub-and-spoke relationships |
-| 10 | **Funnel Stack** | [layouts/funnel-stack.md](layouts/funnel-stack.md) | Sales funnels, conversion flows, recruitment pipelines, decision narrowing |
-| 11 | **Badge Grid** | [layouts/badge-grid.md](layouts/badge-grid.md) | Feature lists, capability catalogs, skill inventories, benefit showcases |
-| 12 | **Metric Board** | [layouts/metric-board.md](layouts/metric-board.md) | Performance dashboards, quarterly reviews, health checks, KPI summaries |
+### Layout Families
+
+#### Core Single-Topic Cards
+
+Use when one thesis should dominate and supporting content should stay secondary.
+
+| Layout | File | Best For |
+|---|---|---|
+| **Hero Card** | [layouts/hero-card.md](layouts/hero-card.md) | Single topic with title + summary + one supporting panel |
+| **Quote Card** | [layouts/quote-card.md](layouts/quote-card.md) | Pull-quotes, mission statements, keynote quotes with attribution |
+| **Split Panel** | [layouts/split-panel.md](layouts/split-panel.md) | Two-column layouts: main content + sidebar or left-right comparison |
+| **Stacked Modules** | [layouts/stacked-modules.md](layouts/stacked-modules.md) | Multi-section vertical flow with mixed-weight blocks |
+
+#### Metrics and Operational Readouts
+
+Use when numbers, status, or operating signals need to be scanned quickly.
+
+| Layout | File | Best For |
+|---|---|---|
+| **Metric Board** | [layouts/metric-board.md](layouts/metric-board.md) | KPI cards, performance dashboards, quarterly reviews, health checks, metric-driven announcements |
+| **Financial Snapshot** | [layouts/financial-snapshot.md](layouts/financial-snapshot.md) | Revenue summaries, cash views, performance snapshots, unit economics |
+| **Sales Brief** | [layouts/sales-brief.md](layouts/sales-brief.md) | Pipeline reviews, deal strategy, regional sales updates, revenue operations |
+| **Terminal Window** | [layouts/terminal-window.md](layouts/terminal-window.md) | Status snapshots, command walkthroughs, incident updates, operational summaries |
+
+#### Sequence, Roadmap, and Progression
+
+Use when the reader needs stages, steps, or directional movement.
+
+| Layout | File | Best For |
+|---|---|---|
+| **Timeline Flow** | [layouts/timeline-flow.md](layouts/timeline-flow.md) | Sequential steps, milestones, process stages with vertical timeline |
+| **Roadmap Board** | [layouts/roadmap-board.md](layouts/roadmap-board.md) | NOW / NEXT / LATER planning, strategic sequencing, phased rollouts |
+| **Funnel Stack** | [layouts/funnel-stack.md](layouts/funnel-stack.md) | Sales funnels, conversion flows, recruitment pipelines, decision narrowing |
+| **Incident Review** | [layouts/incident-review.md](layouts/incident-review.md) | Postmortems, outage reviews, reliability incidents, remediation snapshots |
+
+#### Comparison and Decision
+
+Use when the card needs explicit trade-offs, prioritization, or side-by-side framing.
+
+| Layout | File | Best For |
+|---|---|---|
+| **Pros & Cons** | [layouts/pros-cons.md](layouts/pros-cons.md) | Trade-off analysis, decision framing, risk vs upside, balanced evaluation |
+| **Quadrant Matrix** | [layouts/quadrant-matrix.md](layouts/quadrant-matrix.md) | Priority mapping, risk-return framing, portfolio views, 2x2 classification |
+| **Comparison** | [layouts/comparison.md](layouts/comparison.md) | Side-by-side contrast, option framing, before/after or A/B comparisons |
+
+#### Grid and Inventory
+
+Use when the card needs repeated modules, mixed-size tiles, or scan-friendly inventories.
+
+| Layout | File | Best For |
+|---|---|---|
+| **Bento Grid** | [layouts/bento-grid.md](layouts/bento-grid.md) | Multi-topic overviews, feature showcases, mixed-size grid cells |
+| **Badge Grid** | [layouts/badge-grid.md](layouts/badge-grid.md) | Feature lists, capability catalogs, skill inventories, benefit showcases |
+| **Checklist Board** | [layouts/checklist-board.md](layouts/checklist-board.md) | Execution tracking, launch readiness, QA gates, operational checklists |
+
+#### System and Relationship Mapping
+
+Use when structure, adjacency, or network relationships matter more than sequence.
+
+| Layout | File | Best For |
+|---|---|---|
+| **Architecture Map** | [layouts/architecture-map.md](layouts/architecture-map.md) | Layered systems, platform overviews, service boundaries, technical blueprints |
+| **Radial Hub** | [layouts/radial-hub.md](layouts/radial-hub.md) | Ecosystem overviews, core-plus-features, hub-and-spoke relationships |
+
+#### Document and Memo Logic
+
+Use when the card should read like a structured brief with explicit sections.
+
+| Layout | File | Best For |
+|---|---|---|
+| **Research Abstract** | [layouts/research-abstract.md](layouts/research-abstract.md) | Abstract-summary cards, study findings, evidence synthesis, paper snapshots |
+| **Board Memo** | [layouts/board-memo.md](layouts/board-memo.md) | Executive updates, decision memos, quarterly board notes, leadership summaries |
+| **Policy Memo** | [layouts/policy-memo.md](layouts/policy-memo.md) | Internal policy changes, governance decisions, process rules, guidance notes |
+| **Education Module** | [layouts/education-module.md](layouts/education-module.md) | Lesson summaries, learning paths, workshop modules, teaching cards |
+| **Healthcare Summary** | [layouts/healthcare-summary.md](layouts/healthcare-summary.md) | Clinical overviews, patient summaries, care snapshots, health education |
+
+#### Governance, Risk, and Audit
+
+Use when ownership, control status, and mitigation detail must be explicit.
+
+| Layout | File | Best For |
+|---|---|---|
+| **Risk Register** | [layouts/risk-register.md](layouts/risk-register.md) | Risk tracking, mitigation planning, compliance reviews, program governance |
+| **Compliance Audit** | [layouts/compliance-audit.md](layouts/compliance-audit.md) | Audit summaries, control reviews, security posture checks, compliance tracking |
+
+#### Narrative and Stakeholder Updates
+
+Use when the content is about people, teams, customers, or partner motion.
+
+Primitive note: `org-update`, `customer-story`, and `partner-brief` now share a lightweight `card-brief-*` outer rhythm. Keep `news-bulletin` separate unless the structure is actually about relationship or stakeholder motion rather than headline cadence.
+
+| Layout | File | Best For |
+|---|---|---|
+| **News Bulletin** | [layouts/news-bulletin.md](layouts/news-bulletin.md) | Breaking updates, digest cards, status bulletins, press-style recaps |
+| **Org Update** | [layouts/org-update.md](layouts/org-update.md) | Team changes, hiring updates, ownership shifts, leadership communications |
+| **Customer Story** | [layouts/customer-story.md](layouts/customer-story.md) | Case studies, before/after outcomes, customer wins, adoption narratives |
+| **Partner Brief** | [layouts/partner-brief.md](layouts/partner-brief.md) | Alliance updates, co-sell notes, partner summaries, channel reviews |
+
+### Family Alignment Notes
+
+- Prefer existing family primitives before inventing new class names. Current aligned layout families include `card-doc-*`, `card-kpi-*`, `card-sequence-*`, `card-tile-*`, `card-map-*`, `card-compare-*`, `card-review-*`, `card-topic-*`, and `card-brief-*`.
+- When a new layout clearly belongs to one of those families, vary geometry and modifiers first. Do not create a parallel primitive vocabulary for the same role.
+- Explicit special cases remain intentionally separate: `quote-card`, `terminal-window`, `news-bulletin`, and the strongest identity-driven style themes such as `deep-night` and `glassmorphism`.
+- If a layout or style only shares mood and not structure, document the family relationship in prose rather than forcing additional primitive convergence.
 
 ## Design Principles
 
